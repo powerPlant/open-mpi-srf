@@ -29,6 +29,7 @@ Version 4.0.2
   cd openmpi-$OMPI_VERSION
   ./configure
   make -j`nproc` install
+  ldconfig
 
   ## Cleanup
   apt-get -y remove g++ make wget
